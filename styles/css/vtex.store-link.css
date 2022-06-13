@@ -1,0 +1,45 @@
+.link--Lupa {
+    height: 20px !important;
+    margin-top: -11px;
+    margin-right: 10px;
+}
+.label--nuestras-tiendas {
+    font-size: 15px;
+}
+
+.link--nuestras-tiendas {
+    text-decoration: none;
+    color: black;
+}
+
+.label--nuestras-tiendas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label--nuestras-tiendas::before {
+    content: "";
+    width: 20px;
+    display: block;
+    height: 26px;
+    background-image: url(https://cutis.vteximg.com.br/arquivos/Vector-tiendas.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 5px 0 0;
+}
+
+.link--nuestras-tiendas:hover {
+    color: #49bce9;
+}
+.childrenContainer.childrenContainer--Lupa {
+  background: rgb(39,175,229);
+  border-radius: 50%;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  transition: 400ms all;
+  z-index: 99;
+}

@@ -1,0 +1,169 @@
+{
+
+  "store.custom#tiendas": {
+    "children":[
+      "store.storelocator"
+    ]
+  },
+    "store.storelocator": {
+      "blocks": ["flex-layout.row#title", "flex-layout.row#container"],
+      "props": {
+        "blockClass": ["localizador-titulo-general"]
+      }
+
+    },
+    "flex-layout.row#title": {
+      "children": ["flex-layout.col#title1"],
+      "props": {
+        "blockClass": ["localizador-titulo-general"]
+      }
+    },
+    "flex-layout.row#container": {
+      "children": ["store-list"],
+      "props": {
+        "blockClass": ["localizador-contenedor-store"]
+      }
+    },
+    "flex-layout.col#title1": {
+      "children": ["rich-text#title1"],
+      "props": {
+        "blockClass": ["title","localizador-contenedor-store"],
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title1": {
+      "props": {
+        "text": "## Nuestras Tiendas",
+        "blockClass": ["title","localizador-contenedor-store"]
+      }
+    },
+
+    "store-list": {
+      "props": {
+
+      }
+    },
+    "store.storedetail": {
+      "blocks": ["flex-layout.row#titleStore", "store-group"]
+    },
+    "store-group": {
+      "children": ["flex-layout.row#containerStore"],
+      "props": {
+        "title": "{storeState} - {storeName}"
+      }
+    },
+    "flex-layout.row#titleStore": {
+      "children": ["flex-layout.col#titleStore"],
+      "props": {
+        "blockClass": ["localizador-titulo-store"]
+      }
+    },
+    "flex-layout.row#containerStore": {
+      "children": ["flex-layout.col#detail", "flex-layout.col#store"],
+      "props": {
+        "blockClass": ["localizador-container-store"]
+      }
+    },
+    "flex-layout.col#titleStore": {
+      "children": ["rich-text#titleStore"],
+      "props": {
+        "blockClass": ["title","localizador-titulo"],
+        "preventVerticalStretch": true
+      }
+    },
+
+
+
+
+    "rich-text#titleStore": {
+      "props": {
+        "text": "## Detalles de la tienda"
+      }
+    },
+    "flex-layout.col#detail": {
+      "children": [
+        "store-back-link",
+        "store-name",
+        "store-address",
+        "store-instructions"
+
+      ],
+      "props": {
+        "width": "40%",
+          "blockClass": ["localizador-detalle"],
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.col#store": {
+      "children": ["store-map"],
+      "props": {
+        "blockClass": ["localizador-store"],
+        "width": "60%"
+      }
+    },
+
+    "store-name": {
+      "props": {
+         "text": "{storeState} - {storeName}"
+      }
+    },
+
+    "store-map": {
+      "props": {
+         "height": "500px"
+      }
+    },
+    "store-hours": {
+      "props": {
+        "label": "Horario:",
+        "format": "12h",
+        "businessHours": [
+          {
+            "dayOfWeek": "Domingo",
+            "openingTime": "11:00am",
+            "closingTime": "5:00pm"
+          },
+          {
+            "dayOfWeek": "Lunes",
+            "openingTime": "11:00am",
+            "closingTime": "6:00pm"
+          },
+          {
+            "dayOfWeek": "Martes",
+            "openingTime": "11:00am",
+            "closingTime": "6:00pm"
+          },
+          {
+            "dayOfWeek": "Miercoles",
+            "openingTime": "11:00am",
+            "closingTime": "6:00pm"
+          },
+          {
+            "dayOfWeek": "Jueves",
+            "openingTime": "11:00am",
+            "closingTime": "6:00pm"
+          },
+          {
+            "dayOfWeek": "Viernes",
+            "openingTime": "11:00am",
+            "closingTime": "6:00pm"
+          },
+          {
+            "dayOfWeek": "Sabado",
+            "openingTime": "11:00am",
+            "closingTime": "5:00pm"
+          }
+        ]
+      }
+    },
+    "store-back-link": {
+      "props": {
+        "label": "◄ Volver a tiendas"
+      }
+    },
+    "store-instructions": {
+      "props": {
+        "label": ""
+      }
+    }
+}
