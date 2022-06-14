@@ -1,3 +1,24 @@
+/*Flags de promoción*/
+.productHighlightWrapper--collection[data-highlight-id="160"]::before{
+  content: "";
+  display: block;
+  background: url(/arquivos/35Off-cutis.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 45px;
+  height: 46px;
+  font-size: 0;
+  z-index: 9;
+}
+.productHighlightWrapper--collection[data-highlight-id="160"]{
+  display: block !important;
+  top: 25px;
+  left: 0;
+}
+
+/*Finalizar flags*/
+
+
 .productHighlightWrapper--collection {
   position: absolute;
   top: 0px;

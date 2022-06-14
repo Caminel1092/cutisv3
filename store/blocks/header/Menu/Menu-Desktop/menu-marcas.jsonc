@@ -253,7 +253,7 @@
           }
         }
       },
-      
+
   // Marcas all
   "vtex.menu@2.x:submenu#marcas-all": {
     "props": {
@@ -285,7 +285,7 @@
         "flex-layout.col#marcas-premium-columnas4"
     ]
   },
-  // columnas 
+  // columnas
   "flex-layout.col#marcas-premium-columnas1": {
     "props":{
         "width": "70%",
@@ -354,12 +354,14 @@
       "menu-item#category-marcas-premium-avene",
       "menu-item#category-marcas-premium-antioxidantech",
       "menu-item#category-marcas-premium-aulen",
+      "menu-item#category-marcas-premium-Biohealthy",
       "menu-item#category-marcas-premium-be",
+      "menu-item#category-marcas-premium-Cantabria",
       "menu-item#category-marcas-premium-cetaphil",
       "menu-item#category-marcas-premium-cerave",
       "menu-item#category-marcas-premium-dermasof",
-      "menu-item#category-marcas-premium-dhems",
-      "menu-item#category-marcas-premium-ducray"
+      "menu-item#category-marcas-premium-dhems"
+
     ]
 },
 "vtex.menu@2.x:menu#marcas-premium-2": {
@@ -368,19 +370,20 @@
         "blockclass": "ColumnasMenuCategoria"
     },
     "children": [
+      "menu-item#category-marcas-premium-ducray",
       "menu-item#category-marcas-premium-dermifant",
       "menu-item#category-marcas-premium-esthederm",
       "menu-item#category-marcas-premium-eucerin",
       "menu-item#category-marcas-premium-endocare",
       "menu-item#category-marcas-premium-epidermique",
+      "menu-item#category-marcas-premium-Euroetika",
       "menu-item#category-marcas-premium-fagron",
       "menu-item#category-marcas-premium-galderma",
       "menu-item#category-marcas-premium-genove",
       "menu-item#category-marcas-premium-heeliocare",
       "menu-item#category-marcas-premium-hidrisage",
-      "menu-item#category-marcas-premium-huden",
-      "menu-item#category-marcas-premium-inbiotech",
-      "menu-item#category-marcas-premium-isdin"
+      "menu-item#category-marcas-premium-huden"
+
     ]
   },
   "vtex.menu@2.x:menu#marcas-premium-3": {
@@ -389,10 +392,12 @@
           "blockclass": "ColumnasMenuCategoria"
       },
       "children": [
+        "menu-item#category-marcas-premium-inbiotech",
+        "menu-item#category-marcas-premium-isdin",
         "menu-item#category-marcas-premium-isispharma",
         "menu-item#category-marcas-premium-keracnyl",
         "menu-item#category-marcas-premium-klorane",
-        "menu-item#category-marcas-premium-laForet",
+//        "menu-item#category-marcas-premium-laForet",
         "menu-item#category-marcas-premium-laRochePosay",
         "menu-item#category-marcas-premium-lifetech",
         "menu-item#category-marcas-premium-medihealth",
@@ -400,8 +405,8 @@
         "menu-item#category-marcas-premium-novaderma",
         "menu-item#category-marcas-premium-pharmaderma",
         "menu-item#category-marcas-premium-pilopeptan",
-        "menu-item#category-marcas-premium-quideca",
-        "menu-item#category-marcas-premium-quifarma"
+        "menu-item#category-marcas-premium-quideca"
+
       ]
   },
   "vtex.menu@2.x:menu#marcas-premium-4": {
@@ -410,6 +415,7 @@
           "blockclass": "ColumnasMenuCategoria"
       },
       "children": [
+        "menu-item#category-marcas-premium-quifarma",
         "menu-item#category-marcas-premium-quimiderm",
         "menu-item#category-marcas-premium-saderma",
         "menu-item#category-marcas-premium-sensilis",
@@ -462,10 +468,10 @@
           "highlight": false,
           "itemProps": {
           "type": "internal",
-          "href": "/apiva",
+          "href": "/Apivita",
           "noFollow": false,
-          "tagTitle": "Apiva",
-          "text": "Apiva"
+          "tagTitle": "Apivita",
+          "text": "Apivita"
           }
       }
   },
@@ -959,10 +965,10 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/pharmaderma",
+        "href": "/pharmaderm",
         "noFollow": false,
-        "tagTitle": "Pharmaderma",
-        "text": "Pharmaderma"
+        "tagTitle": "Pharmaderm",
+        "text": "Pharmaderm"
         }
     }
   },
@@ -1095,10 +1101,10 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/skin-allience",
+        "href": "/skin-Alliance",
         "noFollow": false,
-        "tagTitle": "Skin allience",
-        "text": "Skin allience"
+        "tagTitle": "Skin Alliance",
+        "text": "Skin Alliance"
         }
     }
   },
@@ -1110,10 +1116,10 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/skin-ceuticals",
+        "href": "/skinceuticals",
         "noFollow": false,
-        "tagTitle": "Skin ceuticals",
-        "text": "Skin ceuticals"
+        "tagTitle": "Skinceuticals",
+        "text": "Skinceuticals"
         }
     }
   },
@@ -1128,7 +1134,7 @@
         "href": "/skindrug",
         "noFollow": false,
         "tagTitle": "Skindrug",
-        "text": "Skindrugs"
+        "text": "Skindrug"
         }
     }
   },
@@ -1189,6 +1195,51 @@
         "noFollow": false,
         "tagTitle": "Vichy",
         "text": "Vichy"
+        }
+    }
+  },
+  "menu-item#category-marcas-premium-Biohealthy": {
+    "props": {
+        "id": "menu-item-category-apparel-Biohealthy",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/Biohealthy",
+        "noFollow": false,
+        "tagTitle": "Biohealthy",
+        "text": "Biohealthy"
+        }
+    }
+  },
+  "menu-item#category-marcas-premium-Cantabria": {
+    "props": {
+        "id": "menu-item-category-apparel-Cantabria",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/Cantabria-Labs",
+        "noFollow": false,
+        "tagTitle": "Cantabria Labs ",
+        "text": "Cantabria Labs "
+        }
+    }
+  },
+  "menu-item#category-marcas-premium-Euroetika": {
+    "props": {
+        "id": "menu-item-category-apparel-Euroetika",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/Euroetika",
+        "noFollow": false,
+        "tagTitle": "Euroetika",
+        "text": "Euroetika"
         }
     }
   }

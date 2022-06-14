@@ -353,7 +353,7 @@
       }
     }
   },
-  // menu para el quienes somos 
+  // menu para el quienes somos
   "vtex.menu@2.x:menu#quienes-somos": {
     "props": {
       "orientation": "vertical"
@@ -500,8 +500,8 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": false,
-        "tagTitle": "Faq",
-        "text": "Faq"
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
       }
     }
   },

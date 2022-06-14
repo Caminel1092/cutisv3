@@ -54,13 +54,13 @@
 
   "search-result-layout": {
     "blocks": [
-      "search-result-layout.desktop.product-comparison#search1",
+      "search-result-layout.desktop.product-comparison#search",
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
 
-  "search-result-layout.desktop.product-comparison#search1": {
+  "search-result-layout.desktop.product-comparison#search": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
@@ -69,23 +69,6 @@
       "slider-layout#categorysSearch",
       // "flex-layout.row#vitrinaDestacadaSearch",
       "flex-layout.row#vitrineCategory"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": true,
-      "defaultGalleryLayout": "grid"
-    }
-  },
-
-  "search-result-layout.desktop.product-comparison#search": {
-    "children": [
-      "slider-layout#categorysSearch",
-      // "flex-layout.row#vitrinaDestacadaSearch",
-      "flex-layout.row#vitrineCategory",
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result",
-      "flex-layout.row#drawer"
     ],
     "props": {
       "pagination": "show-more",
@@ -181,16 +164,16 @@
   // Search en mobile
   "search-result-layout.mobile": {
     "children": [
-      "slider-layout#categorysSearch",
-      // "flex-layout.row#vitrinaDestacadaSearch",
-      "flex-layout.row#vitrineCategory",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       // "flex-layout.row#fetchprevious",,
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "slider-layout#categorysSearch",
+      // "flex-layout.row#vitrinaDestacadaSearch",
+      "flex-layout.row#vitrineCategory"
     ],
     "props": {
       "pagination": "show-more",

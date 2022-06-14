@@ -18,7 +18,7 @@
         "blockClass": ["subMneusMContent","menusPrincipal"]
         }
     },
-    //  inicio de contenido 
+    //  inicio de contenido
     "flex-layout.row#brandsM": {
         "children": [
             "flex-layout.col#brandSection1",
@@ -218,6 +218,8 @@
           "menu-item#brandAluenPharma",
           "menu-item#brandBe",
           "menu-item#brandBioderma",
+          "menu-item#brandBiohealthy",
+          "menu-item#brandCantabria-Labs",
           "menu-item#brandCetaphil",
           "menu-item#brandCerave",
           "menu-item#brandDermasof",
@@ -226,6 +228,7 @@
           "menu-item#brandDermifant",
           "menu-item#brandEsthederm",
           "menu-item#brandEucerin",
+          "menu-item#brandEuroetika",
           "menu-item#brandEndocore",
           "menu-item#brandEpidermique",
           "menu-item#brandFagron",
@@ -233,15 +236,61 @@
           "menu-item#brandGenove",
           "menu-item#brandHeliocare",
           "menu-item#brandHidrisage",
-          "menu-item#brandHuden",
-          "menu-item#brandInbiotech",
-          "menu-item#brandIsdin"
+          "menu-item#brandHuden"
         ],
         "props": {
           "width":"50%",
           "blockClass": "itemCategory"
         }
     },
+    "menu-item#brandEuroetika":{
+      "props": {
+        "id": "menu-item-brand-home",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "itemsMarcas",
+        "itemProps": {
+        "type": "internal",
+        "href":"/Euroetika",
+        "noFollow": false,
+        "tagTitle": "Euroetika",
+        "text": "Euroetika"
+        }
+      }
+  },
+  "menu-item#brandCantabria-Labs":{
+    "props": {
+      "id": "menu-item-brand-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemsMarcas",
+      "itemProps": {
+      "type": "internal",
+      "href":"/Cantabria-Labs",
+      "noFollow": false,
+      "tagTitle": "Cantabria Labs",
+      "text": "Cantabria Labs"
+      }
+    }
+},
+"menu-item#brandBiohealthy":{
+  "props": {
+    "id": "menu-item-brand-home",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "blockClass": "itemsMarcas",
+    "itemProps": {
+    "type": "internal",
+    "href":"/Biohealthy",
+    "noFollow": false,
+    "tagTitle": "Biohealthy",
+    "text": "Biohealthy"
+    }
+  }
+},
     "menu-item#brandAderma":{
         "props": {
           "id": "menu-item-brand-home",
@@ -283,10 +332,10 @@
           "blockClass": "itemsMarcas",
           "itemProps": {
           "type": "internal",
-          "href":"/apiva",
+          "href":"/Apivita",
           "noFollow": false,
-          "tagTitle": "Apiva",
-          "text": "Apiva"
+          "tagTitle": "Apivita",
+          "text": "Apivita"
           }
         }
     },
@@ -660,9 +709,12 @@
     },
     "flex-layout.col#brandsColum2": {
         "children": [
+
+          "menu-item#brandInbiotech",
+          "menu-item#brandIsdin",
           "menu-item#brandIsispharma",
           "menu-item#brandKeracnyl",
-          "menu-item#brandLaForet",
+    //      "menu-item#brandLaForet",
           "menu-item#brandLaRochePosay",
           "menu-item#brandLiifetech",
           "menu-item#brandMedihealth",
@@ -841,10 +893,10 @@
           "blockClass": "itemsMarcas",
           "itemProps": {
           "type": "internal",
-          "href":"/pharmaderma",
+          "href":"/Pharmaderm",
           "noFollow": false,
-          "tagTitle": "Pharmaderma",
-          "text": "Pharmaderma"
+          "tagTitle": "Pharmaderm",
+          "text": "Pharmaderm"
           }
         }
     },
@@ -987,8 +1039,8 @@
           "type": "internal",
           "href":"/skin-allience",
           "noFollow": false,
-          "tagTitle": "Skin allience",
-          "text": "Skin allience"
+          "tagTitle": "Skin Alliance",
+          "text": "Skin Alliance"
           }
         }
     },
@@ -1001,10 +1053,10 @@
           "blockClass": "itemsMarcas",
           "itemProps": {
           "type": "internal",
-          "href":"/skin-ceuticals",
+          "href":"/Skinceuticals",
           "noFollow": false,
-          "tagTitle": "Skin ceuticals",
-          "text": "Skin ceuticals"
+          "tagTitle": "Skinceuticals",
+          "text": "Skinceuticals"
           }
         }
     },

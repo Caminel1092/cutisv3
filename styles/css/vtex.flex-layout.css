@@ -1293,6 +1293,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 19px;
+    padding-bottom: 55px;
   }
   .flexCol--itemCategory  {
     width: 94% !important;
